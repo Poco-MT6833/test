@@ -2106,6 +2106,10 @@ lib64/libvt_avsync.so|6593f835b38cef623d4d20aa5cd553904415b41d
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so|e9e115cdba63fe496155fddb27818f2e08216efb
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|fd5431b7f270c6e0083a0825571a705d87691dc6
 
+# IMS (System) - from https://github.com/xiaomi-mt6833-dev/IMS/releases/tag/V14.0.3.0.TGLMIXM
+-system/framework/mediatek-telephony-base.jar|34330fd459491f03f10985130e4ad563c1021029
+-system/priv-app/ImsService/ImsService.apk|443d9e7092aa29152b080e64cc5c6d974839d309
+
 # Kernel-Modules
 vendor/lib/modules/bt_drv_connac1x.ko
 vendor/lib/modules/connfem.ko
