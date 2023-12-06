@@ -2071,40 +2071,29 @@ vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/libOpenCL.so
 
-# IMS - from Redmi/light/light:13/TP1A.220624.014/V14.0.3.0.TLSINXM:user/release-keys
-bin/vtservice|139ddac4f4c264c105dd8e1e0c658ef653faeb32
-etc/init/init.vtservice.rc|abcbc3ffc316b8f1cedffa949aac3b46670d64bc
--framework/mediatek-common.jar|65cb5b86acb0eb42bb3ec2987e1d80a88ea0756a
--framework/mediatek-framework.jar|e1820712befe75673d4efc6f4a64b86ada611084
--framework/mediatek-ims-base.jar|8e58bc3840adef5c23322267520d677b492eebc2
--framework/mediatek-ims-common.jar|c2631df71d268a1dc2af03a188c83bc2c9f41eee
-framework/mediatek-ims-extension-plugin.jar|fbadb06fbf2762b181e15c88cbd7ae299a89be71
--framework/mediatek-telecom-common.jar|b80be86b779269c7078670d573626f0f860427d4
--framework/mediatek-telephony-base.jar|357c2986f3c17adf8eb70f3b3318949a2f48f2cf
--framework/mediatek-telephony-common.jar|90f5e7e1684936dd96f608a5e1c433c8c9021f1f
-lib/libmtk_vt_wrapper.so|836df69a685af90f704cffae98dacda2094fbb04
-lib/libmtkperf_client.so|ef49cce5623ac88c84044821cb578fd74843bad3
-lib/libsysenv_system.so|4cf685d03bfc5d3c415121e890ab0c280bae479b
-lib/libvcodec_cap.so|c237046a0105b23f26e8706af1205126f61f48d4
-lib/libvcodec_capenc.so|7f2bca2d42fb76dbf961542836a974980d20eec4
-lib64/libcomutils.so|fda05df0a9e81f9b6e441e9d96a3276ed324f073
-lib64/libimsma.so|417c5c34b4c68f82c0f33198954c05bae5983ef1
-lib64/libimsma_adapt.so|8394e9f60c65dd069b6bf7bc506294049e699cae
-lib64/libimsma_rtp.so|a39e921d519458fcea90283311654505715938c2
-lib64/libimsma_socketwrapper.so|f63849d08340c59153b99d18b9cfdbc90ef7d1e7
-lib64/libmtk_vt_service.so|d87625a2945771f1271b100a65c0afd60c60d7fd
-lib64/libmtk_vt_wrapper.so|ba3693e589d27069c78ef9491c6e945ecbdaedba
-lib64/libmtkperf_client.so|701883c0d23c4e27ffbccca4991bba3efe205c44
-lib64/libsignal.so|21750f26380a01fe76542bb112758306e59ad86d
-lib64/libsink.so|19f6b5c159d08d727ce1d986cf6c79ad884e2c46
-lib64/libsource.so|289dbf8a2232f052714a22de531b2863ce0678ef
-lib64/libsysenv_system.so|029aee8f552cadade3975f8641858c17fa4d8b54
-lib64/libvcodec_cap.so|061a4e4d6bf4f0a186571e83034d3c0a88ba3f77
-lib64/libvcodec_capenc.so|5f981214f184c32f03a609adf9073f31ded82d65
-lib64/libvt_avsync.so|6593f835b38cef623d4d20aa5cd553904415b41d
--priv-app/ImsService/ImsService.apk|bf300f97f783fc7ec2d261308df93d5155481454
-system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so|e9e115cdba63fe496155fddb27818f2e08216efb
-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|fd5431b7f270c6e0083a0825571a705d87691dc6
+# IMS - from TECNO/TSSI/FULL-64-ARMV82:14/UP1A.230620.001/230919V1761:user/release-keys
+-vendor/bin/hw/vtservice_hidl|047b26f80b338b7d0869840d243eefebe82d56f5
+-vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so|bb9ff554802e7bffb72cf24604109dafcf0019fc
+-vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|5e228669d2c575e38fc02a13404f31bc22494b87
+
+# IMS (System) - from TECNO/TSSI/FULL-64-ARMV82:14/UP1A.230620.001/230919V1761:user/release-keys
+-system_ext/bin/vtservice|eeb08595c53be9d7a69ba5b677b5604f753eab37
+system_ext/etc/init/init.vtservice.rc|50a2249906edc06059b443513db47a2ddc0490dc
+-system_ext/lib64/libcomutils.so|fae6b5fd7628518eaf3e3eadac2133dd83f30839
+-system_ext/lib64/libimsma.so|573e9c9f7d6879b7f23f0eb1c2ff12fcad3dd80b
+-system_ext/lib64/libimsma_adapt.so|b95939f797ba52d87bb9fa6ebf356e0fb4fcfe56
+-system_ext/lib64/libimsma_rtp.so|25b249764ba9df7d89f3af209f38e4cb4993ddb3
+-system_ext/lib64/libimsma_socketwrapper.so|5a26aae9eee36b9e5dc8875aa68b20ced2e1b676
+-system_ext/lib64/libmtk_vt_service.so|890ddf6c84e1c99c2f575d673570e00c63f9ebe6
+-system_ext/lib64/libmtk_vt_wrapper.so|6f6f18d546a98676f7ed725f0acaebc5d6d58471
+-system_ext/lib64/libsignal.so|5595f5d7b6e7320572ec05ac199f951d141b516a
+-system_ext/lib64/libsink.so|9e1d49a08d3f7bd1cc4508877ca552c8927be8fc
+-system_ext/lib64/libsource.so|75cbf8a9741eb2aeb42e0469d00099905b1a797a
+-system_ext/lib64/libvcodec_cap.so|834445754d88428b01a8a09fcbc9903b3d15d785
+-system_ext/lib64/libvcodec_capenc.so|3b5e76522a7331248c2864493fdade2bdf73c4c3
+-system_ext/lib64/libvt_avsync.so|186a5263b1be36e3f5ba47c0e8b40bca48a6b382
+-system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|d12f0aef8da477595468df3cebb5fa4f0a8770be
+-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so;MODULE=vendor.mediatek.hardware.videotelephony@1.0.system_ext|cdd9da0a0896031fd034069566bc80c332cdc9c1
 
 # IMS (System) - from https://github.com/xiaomi-mt6833-dev/IMS/releases/tag/V14.0.3.0.TGLMIXM
 -system/framework/mediatek-telephony-base.jar|34330fd459491f03f10985130e4ad563c1021029
@@ -2167,7 +2156,6 @@ vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/mt6833/libmtk_drvb.so
 vendor/lib/libMtkOmxAdpcmDec.so
 vendor/lib/libMtkOmxAlacDec.so
@@ -2220,13 +2208,11 @@ vendor/lib/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib/vendor.mediatek.hardware.pq@2.9.so
 vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
-vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/mt6833/libmtk_drvb.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/libMtkOmxCore.so
@@ -2357,7 +2343,6 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
-vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Power
 vendor/lib/hw/power.default.so
@@ -2495,7 +2480,6 @@ vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so
 # Misc
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/tetheroffloadservice
-vendor/bin/hw/vtservice_hidl
 vendor/bin/AgentTest
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
