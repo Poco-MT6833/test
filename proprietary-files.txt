@@ -4102,4 +4102,3 @@ vendor/lib64/sc202cs_ofilm_depth_mipi_raw_tuning.so
 vendor/lib64/shared-file-region-aidl-cpp.so
 vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 vendor/lib64/wechat.beanpod.so
--vendor/priv-app/GpuGameDriver.mt6833/GpuGameDriver.mt6833.apk
